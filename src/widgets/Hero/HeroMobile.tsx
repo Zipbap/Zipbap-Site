@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function HeroMobile() {
   return (
-    <section className="flex md:hidden min-h-screen w-full flex-col items-center justify-center bg-gradient-to-b from-[#FF8C42] via-[#FFB685] via-[#FFD4B3] via-[#FFE8D6] via-[#FFF0E5] to-[#FFF5EF] text-center px-0 pt-[0px] pb-8 relative overflow-x-visible">
+    <section className="flex md:hidden min-h-screen w-full flex-col items-center justify-center bg-gradient-to-b from-[#FF8C42] via-[#FFB685] via-[#FFD4B3] via-[#FFE8D6] via-[#FFF0E5] to-[#FFF5EF] text-center px-0 pt-[100px] pb-8 relative overflow-x-visible">
       {/* 배경 장식 */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-32 h-32 bg-white rounded-full blur-3xl"></div>
