@@ -28,10 +28,10 @@ export const metadata: Metadata = {
     description: "가족의 손맛과 추억을 담은 따뜻한 레시피 플랫폼. 엄마의 비법, 할머니의 손맛, 우리 가족만의 레시피를 영원히 보존하세요.",
     images: [
       {
-        url: "/zipbap.svg",
-        width: 1200,
-        height: 630,
-        alt: "Zipbap 로고",
+        url: "/assets/link-preview.png",
+        width: 1430,
+        height: 791,
+        alt: "Zipbap - 나만의 가족 레시피북",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Zipbap - 나만의 가족 레시피북",
     description: "가족의 손맛과 추억을 담은 따뜻한 레시피 플랫폼",
-    images: ["/zipbap.svg"],
+    images: ["/assets/link-preview.png"],
   },
   icons: {
     icon: "/zipbap.svg",
