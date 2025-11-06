@@ -35,6 +35,9 @@ export default function Footer() {
               <li>
                 <a href="/privacy-policy" className="text-gray-600 text-sm hover:underline">개인정보처리방침</a>
               </li>
+              <li>
+                <a href="/account-deletion" className="text-gray-600 text-sm hover:underline">계정 삭제 안내</a>
+              </li>
             </ul>
           </div>
         </div>

@@ -28,7 +28,12 @@ export default function FooterMobile() {
         {/* About + 정책 링크 */}
         <div className="mb-6">
           <p className="text-gray-500 text-[11px] mb-1">About</p>
-          <a href="/privacy-policy" className="text-gray-600 text-sm hover:underline">개인정보처리방침</a>
+          <div className="space-y-2">
+            <a href="/privacy-policy" className="text-gray-600 text-sm hover:underline">개인정보처리방침</a>
+            <div>
+              <a href="/account-deletion" className="text-gray-600 text-sm hover:underline">계정 삭제 안내</a>
+            </div>
+          </div>
         </div>
         
         {/* 저작권 정보 - 가운데 정렬 */}
