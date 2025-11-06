@@ -25,6 +25,11 @@ export default function FooterMobile() {
             <p className="text-gray-600 text-sm">sunwoo11228@gmail.com</p>
           </div>
         </div>
+        {/* About + 정책 링크 */}
+        <div className="mb-6">
+          <p className="text-gray-500 text-[11px] mb-1">About</p>
+          <a href="/privacy-policy" className="text-gray-600 text-sm hover:underline">개인정보처리방침</a>
+        </div>
         
         {/* 저작권 정보 - 가운데 정렬 */}
         <div className="flex items-end justify-center">

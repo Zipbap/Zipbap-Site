@@ -28,11 +28,20 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          
-          {/* 저작권 정보 - 오른쪽 아래 */}
-          <div className="lg:flex lg:items-end lg:justify-end">
-            <p className="text-gray-400 text-xs">© 2025 Zipbap. All rights reserved.</p>
+          {/* About 섹션 (오른쪽) */}
+          <div className="min-w-[160px]">
+            <p className="text-gray-500 text-xs mb-2">About</p>
+            <ul className="space-y-2">
+              <li>
+                <a href="/privacy-policy" className="text-gray-600 text-sm hover:underline">개인정보처리방침</a>
+              </li>
+            </ul>
           </div>
+        </div>
+
+        {/* 저작권 정보 - 맨 아래 중앙 정렬 */}
+        <div className="mt-8 flex items-end justify-center">
+          <p className="text-gray-400 text-xs">© 2025 Zipbap. All rights reserved.</p>
         </div>
       </div>
     </footer>
